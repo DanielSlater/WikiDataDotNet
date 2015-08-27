@@ -1,7 +1,7 @@
 WikiDataDotNet
 ============
 
-WikiDataDotNet is an API for access data from WikiData http://wikidata.org/
+WikiDataDotNet is an API for access data from WikiData http://www.wikidata.org/
 
 This API is still in development if you find a bug, please report it or even better, create a patch and make a pull request. Contributions are very welcome.
 
@@ -16,7 +16,7 @@ I have plans to extend with an easy way to lookup and cache claims.
 Download and Installation
 -------------------------
 
-You can clone the source code from this repository to your local machine and compile it there. To use in one of your projects you will also need to include the Newtonsoft.Json.FSharp nuget package
+You can clone the source code from this repository to your local machine and compile it there. To use in one of your projects you will also need to include the Newtonsoft.Json.FSharp nuget package.
 
 License
 -------
