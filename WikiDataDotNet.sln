@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WikiDataDotNet", "WikiDataDotNet\WikiDataDotNet.fsproj", "{80D9F242-47E9-4894-88E5-305DD7D8DBB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QueryResults", "QueryResults", "{38AD7620-F22A-4BDD-976F-32698AC23FDE}"
+	ProjectSection(SolutionItems) = preProject
+		QueryResults\data.json = QueryResults\data.json
+		QueryResults\entity.json = QueryResults\entity.json
+		QueryResults\page.json = QueryResults\page.json
+		QueryResults\query.json = QueryResults\query.json
+		QueryResults\search.json = QueryResults\search.json
+	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		__JSONSchema = 
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WikiDataDotNet.Test", "WikiDataDotNet.Test\WikiDataDotNet.Test.fsproj", "{1BA720F0-60E4-4CBF-99B1-88EEE5A2D00E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiDataDotNet.Samples.CSharp", "WikiDataDotNet.Samples.CSharp\WikiDataDotNet.Samples.CSharp.csproj", "{947321BE-8E75-486C-9F85-6CE6C676FAE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D9F242-47E9-4894-88E5-305DD7D8DBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D9F242-47E9-4894-88E5-305DD7D8DBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D9F242-47E9-4894-88E5-305DD7D8DBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D9F242-47E9-4894-88E5-305DD7D8DBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA720F0-60E4-4CBF-99B1-88EEE5A2D00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA720F0-60E4-4CBF-99B1-88EEE5A2D00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA720F0-60E4-4CBF-99B1-88EEE5A2D00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA720F0-60E4-4CBF-99B1-88EEE5A2D00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947321BE-8E75-486C-9F85-6CE6C676FAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947321BE-8E75-486C-9F85-6CE6C676FAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947321BE-8E75-486C-9F85-6CE6C676FAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947321BE-8E75-486C-9F85-6CE6C676FAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
