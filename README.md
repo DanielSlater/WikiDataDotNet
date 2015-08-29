@@ -9,9 +9,16 @@ Overview
 --------
 
 Provides the ability to get entities and search against WikiData.
-There are examples of usage in WikiDataDotNet.Samples.CSharp
+
+To get an entity simply:
+
+open WikiDataDotNet.Request
+request_entity "Q38"
+
+There are C# examples of usage in WikiDataDotNet.Samples.CSharp
 
 I have plans to extend with an easy way to lookup and cache claims.
+More info on my blog http://www.danielslater.net/2015/08/presenting-wikidatadotnet-client-api.html
 
 Download and Installation
 -------------------------
